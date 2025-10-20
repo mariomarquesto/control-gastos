@@ -1,3 +1,4 @@
+
 {
   "name": "control-gastos",
   "private": true,
@@ -8,6 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "@ant-design/icons": "^6.1.0",
