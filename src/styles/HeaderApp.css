@@ -1,0 +1,29 @@
+/* --- Estilos Base para Header de Ant Design (Desktop/General) --- */
+.header-app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* Propiedades visuales */
+    background-color: #001529; /* Color de fondo oscuro */
+    height: 64px; /* Alto estándar de Header de Ant Design */
+    padding: 0 50px; /* Espaciado lateral */
+}
+
+.header-app h1 {
+    color: white; 
+    font-weight: 600; 
+    margin: 0; /* Elimina márgenes por defecto */
+    line-height: 1; 
+}
+
+
+/* --- Estilos para Pantallas Pequeñas (max-width: 576px) --- */
+@media (max-width: 576px) {
+    .header-app {
+        padding: 0 16px; /* Menos padding en los lados */
+    }
+    .header-app h1 {
+        font-size: 1.2rem; /* Reduce el tamaño del título */
+    }
+}
